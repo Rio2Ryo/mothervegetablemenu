@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Baguette', bottomTitle: 'Mix into butter', image: 'f1.jpg' },
-    { topTitle: 'Tabbouleh', bottomTitle: 'Mix into salad', image: 'f2.jpg' },
-    { topTitle: 'Potage', bottomTitle: 'Mix as a finishing touch', image: 'f3.jpg' },
-    { topTitle: 'Avocado and Scallop Appetizer', bottomTitle: 'Mix into sauce', image: 'f4.jpg' },
-    { topTitle: 'Ratatouille', bottomTitle: 'Mix into stewed dishes', image: 'f5.jpg' },
-    { topTitle: 'Quiche', bottomTitle: 'Mix into the filling', image: 'f6.jpg' },
-    { topTitle: 'Salmon Tartare', bottomTitle: 'Mix into the filling', image: 'f7.jpg' },
-    { topTitle: 'White Fish Meunière', bottomTitle: 'Mix into sauce', image: 'f8.jpg' },
+    { topTitle: { JP: 'バゲット', EN: 'Baguette' }, bottomTitle: { JP: 'バターに混ぜる', EN: 'Mix into butter' }, image: 'f1.jpg' },
+    { topTitle: { JP: 'タブーリ', EN: 'Tabbouleh' }, bottomTitle: { JP: 'サラダに混ぜる', EN: 'Mix into salad' }, image: 'f2.jpg' },
+    { topTitle: { JP: 'ポタージュ', EN: 'Potage' }, bottomTitle: { JP: '仕上げに混ぜる', EN: 'Mix as a finishing touch' }, image: 'f3.jpg' },
+    { topTitle: { JP: 'アボカドとホタテの前菜', EN: 'Avocado and Scallop Appetizer' }, bottomTitle: { JP: 'ソースに混ぜる', EN: 'Mix into sauce' }, image: 'f4.jpg' },
+    { topTitle: { JP: 'ラタトゥイユ', EN: 'Ratatouille' }, bottomTitle: { JP: '煮込み料理に混ぜる', EN: 'Mix into stewed dishes' }, image: 'f5.jpg' },
+    { topTitle: { JP: 'キッシュ', EN: 'Quiche' }, bottomTitle: { JP: '具材に混ぜる', EN: 'Mix into the filling' }, image: 'f6.jpg' },
+    { topTitle: { JP: 'サーモンのタルタル', EN: 'Salmon Tartare' }, bottomTitle: { JP: '具材に混ぜる', EN: 'Mix into the filling' }, image: 'f7.jpg' },
+    { topTitle: { JP: '白身魚のムニエル', EN: 'White Fish Meunière' }, bottomTitle: { JP: 'ソースに混ぜる', EN: 'Mix into sauce' }, image: 'f8.jpg' },
   ]
 
   return (
@@ -42,12 +42,12 @@ export default function MazavegeFamily() {
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
                   <div className="items-baseline gap-2 mb-3">
-                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle}</p>
-                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle}</p>
+                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle[language]}</p>
+                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle[language]}</p>
                   </div>
                   <img
                     src={`/${drink.image}`}
-                    alt={`${drink.topTitle} - ${drink.bottomTitle}`}
+                    alt={`${drink.topTitle[language]} - ${drink.bottomTitle[language]}`}
                     className="w-full h-auto shadow-lg"
                   />
                 </div>

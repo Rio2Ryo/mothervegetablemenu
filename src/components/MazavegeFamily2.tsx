@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Hiyayakko', bottomTitle: 'Use as a topping', image: 'i1.jpg' },
-    { topTitle: 'Mekabu', bottomTitle: 'Mix with seaweed', image: 'i2.jpg' },
-    { topTitle: 'Natto', bottomTitle: 'Mix together', image: 'i3.jpg' },
-    { topTitle: 'Vegetable Dip', bottomTitle: 'Mix into miso dip', image: 'i4.jpg' },
-    { topTitle: 'Potato Salad', bottomTitle: 'Mix into salad', image: 'i5.jpg' },
-    { topTitle: 'Fried Chicken', bottomTitle: 'Mix with salt', image: 'i6.jpg' },
-    { topTitle: 'Shrimp with Mayo', bottomTitle: 'Mix into sauce', image: 'i7.jpg' },
-    { topTitle: 'Ochazuke', bottomTitle: 'Mix into broth', image: 'i8.jpg' },
+    { topTitle: { JP: '冷奴', EN: 'Hiyayakko' }, bottomTitle: { JP: 'トッピングとして使用', EN: 'Use as a topping' }, image: 'i1.jpg' },
+    { topTitle: { JP: 'めかぶ', EN: 'Mekabu' }, bottomTitle: { JP: '海藻と混ぜる', EN: 'Mix with seaweed' }, image: 'i2.jpg' },
+    { topTitle: { JP: '納豆', EN: 'Natto' }, bottomTitle: { JP: '一緒に混ぜる', EN: 'Mix together' }, image: 'i3.jpg' },
+    { topTitle: { JP: '野菜ディップ', EN: 'Vegetable Dip' }, bottomTitle: { JP: '味噌ディップに混ぜる', EN: 'Mix into miso dip' }, image: 'i4.jpg' },
+    { topTitle: { JP: 'ポテトサラダ', EN: 'Potato Salad' }, bottomTitle: { JP: 'サラダに混ぜる', EN: 'Mix into salad' }, image: 'i5.jpg' },
+    { topTitle: { JP: '唐揚げ', EN: 'Fried Chicken' }, bottomTitle: { JP: '塩と混ぜる', EN: 'Mix with salt' }, image: 'i6.jpg' },
+    { topTitle: { JP: 'エビマヨ', EN: 'Shrimp with Mayo' }, bottomTitle: { JP: 'ソースに混ぜる', EN: 'Mix into sauce' }, image: 'i7.jpg' },
+    { topTitle: { JP: 'お茶漬け', EN: 'Ochazuke' }, bottomTitle: { JP: 'だしに混ぜる', EN: 'Mix into broth' }, image: 'i8.jpg' },
   ]
 
   return (
@@ -42,12 +42,12 @@ export default function MazavegeFamily() {
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
                   <div className="items-baseline gap-2 mb-3">
-                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle}</p>
-                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle}</p>
+                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle[language]}</p>
+                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle[language]}</p>
                   </div>
                   <img
                     src={`/${drink.image}`}
-                    alt={`${drink.topTitle} - ${drink.bottomTitle}`}
+                    alt={`${drink.topTitle[language]} - ${drink.bottomTitle[language]}`}
                     className="w-full h-auto shadow-lg"
                   />
                 </div>

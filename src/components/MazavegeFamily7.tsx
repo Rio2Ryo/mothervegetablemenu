@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Kimchi', bottomTitle: 'Use as a topping', image: 'k1.jpg' },
-    { topTitle: 'Tteokbokki', bottomTitle: 'Mix into sauce', image: 'k2.jpg' },
-    { topTitle: 'Kimbap', bottomTitle: 'Mix into rice', image: 'k3.jpg' },
-    { topTitle: 'Samgyetang', bottomTitle: 'Mix into soup', image: 'k4.jpg' },
-    { topTitle: 'Samgyeopsal', bottomTitle: 'Mix into the seasoned miso', image: 'k5.jpg' },
-    { topTitle: 'Bibimbap', bottomTitle: 'Use as a topping', image: 'k6.jpg' },
-    { topTitle: 'Cheese Dak-galbi', bottomTitle: 'Mix with cheese', image: 'k7.jpg' },
-    { topTitle: 'Naengmyeon', bottomTitle: 'Mix into soup', image: 'k8.jpg' },
+    { topTitle: { JP: 'キムチ', EN: 'Kimchi' }, bottomTitle: { JP: 'トッピングとして使用', EN: 'Use as a topping' }, image: 'k1.jpg' },
+    { topTitle: { JP: 'トッポギ', EN: 'Tteokbokki' }, bottomTitle: { JP: 'ソースに混ぜる', EN: 'Mix into sauce' }, image: 'k2.jpg' },
+    { topTitle: { JP: 'キンパ', EN: 'Kimbap' }, bottomTitle: { JP: 'ご飯に混ぜる', EN: 'Mix into rice' }, image: 'k3.jpg' },
+    { topTitle: { JP: 'サムゲタン', EN: 'Samgyetang' }, bottomTitle: { JP: 'スープに混ぜる', EN: 'Mix into soup' }, image: 'k4.jpg' },
+    { topTitle: { JP: 'サムギョプサル', EN: 'Samgyeopsal' }, bottomTitle: { JP: '味噌だれに混ぜる', EN: 'Mix into the seasoned miso' }, image: 'k5.jpg' },
+    { topTitle: { JP: 'ビビンバ', EN: 'Bibimbap' }, bottomTitle: { JP: 'トッピングとして使用', EN: 'Use as a topping' }, image: 'k6.jpg' },
+    { topTitle: { JP: 'チーズタッカルビ', EN: 'Cheese Dak-galbi' }, bottomTitle: { JP: 'チーズと混ぜる', EN: 'Mix with cheese' }, image: 'k7.jpg' },
+    { topTitle: { JP: '冷麺', EN: 'Naengmyeon' }, bottomTitle: { JP: 'スープに混ぜる', EN: 'Mix into soup' }, image: 'k8.jpg' },
   ]
 
   return (
@@ -42,12 +42,12 @@ export default function MazavegeFamily() {
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
                   <div className="items-baseline gap-2 mb-3">
-                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle}</p>
-                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle}</p>
+                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle[language]}</p>
+                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle[language]}</p>
                   </div>
                   <img
                     src={`/${drink.image}`}
-                    alt={`${drink.topTitle} - ${drink.bottomTitle}`}
+                    alt={`${drink.topTitle[language]} - ${drink.bottomTitle[language]}`}
                     className="w-full h-auto shadow-lg"
                   />
                 </div>

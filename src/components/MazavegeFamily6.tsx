@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Egg Drop Soup', bottomTitle: 'Mix as a finishing touch', image: 'c1.jpg' },
-    { topTitle: 'Glass Noodle Salad', bottomTitle: 'Mix in as a finishing touch and sprinkle on top', image: 'c2.jpg' },
-    { topTitle: 'Mapo Tofu', bottomTitle: 'Use as a topping', image: 'c3.jpg' },
-    { topTitle: 'Xiaolongbao', bottomTitle: 'Mix with sauce', image: 'c4.jpg' },
-    { topTitle: 'Bang Bang Chicken', bottomTitle: 'Mix with sauce', image: 'c5.jpg' },
-    { topTitle: 'Fried Rice', bottomTitle: 'Add in as a finishing touch while stir-frying', image: 'c6.jpg' },
-    { topTitle: 'Shrimp in Chili Sauce', bottomTitle: 'Use as a topping', image: 'c7.jpg' },
-    { topTitle: 'Stir-Fried Green Pepper and Beef', bottomTitle: 'Toss together as a finishing touch', image: 'c8.jpg' },
+    { topTitle: { JP: 'たまごスープ', EN: 'Egg Drop Soup' }, bottomTitle: { JP: '仕上げに混ぜる', EN: 'Mix as a finishing touch' }, image: 'c1.jpg' },
+    { topTitle: { JP: '春雨サラダ', EN: 'Glass Noodle Salad' }, bottomTitle: { JP: '仕上げに混ぜて振りかける', EN: 'Mix in as a finishing touch and sprinkle on top' }, image: 'c2.jpg' },
+    { topTitle: { JP: '麻婆豆腐', EN: 'Mapo Tofu' }, bottomTitle: { JP: 'トッピングとして使用', EN: 'Use as a topping' }, image: 'c3.jpg' },
+    { topTitle: { JP: '小籠包', EN: 'Xiaolongbao' }, bottomTitle: { JP: 'タレと混ぜる', EN: 'Mix with sauce' }, image: 'c4.jpg' },
+    { topTitle: { JP: 'バンバンジー', EN: 'Bang Bang Chicken' }, bottomTitle: { JP: 'タレと混ぜる', EN: 'Mix with sauce' }, image: 'c5.jpg' },
+    { topTitle: { JP: 'チャーハン', EN: 'Fried Rice' }, bottomTitle: { JP: '炒める際に仕上げで加える', EN: 'Add in as a finishing touch while stir-frying' }, image: 'c6.jpg' },
+    { topTitle: { JP: 'エビチリ', EN: 'Shrimp in Chili Sauce' }, bottomTitle: { JP: 'トッピングとして使用', EN: 'Use as a topping' }, image: 'c7.jpg' },
+    { topTitle: { JP: 'チンジャオロース', EN: 'Stir-Fried Green Pepper and Beef' }, bottomTitle: { JP: '仕上げに一緒に炒める', EN: 'Toss together as a finishing touch' }, image: 'c8.jpg' },
   ]
 
   return (
@@ -42,12 +42,12 @@ export default function MazavegeFamily() {
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
                   <div className="items-baseline gap-2 mb-3">
-                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle}</p>
-                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle}</p>
+                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle[language]}</p>
+                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle[language]}</p>
                   </div>
                   <img
                     src={`/${drink.image}`}
-                    alt={`${drink.topTitle} - ${drink.bottomTitle}`}
+                    alt={`${drink.topTitle[language]} - ${drink.bottomTitle[language]}`}
                     className="w-full h-auto shadow-lg"
                   />
                 </div>

@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Caprese', bottomTitle: 'Use as a topping', image: 'e1.jpg' },
-    { topTitle: 'Salad', bottomTitle: 'Sprinkle on salad', image: 'e2.jpg' },
-    { topTitle: 'Bruschetta', bottomTitle: 'Mix into paste', image: 'e3.jpg' },
-    { topTitle: 'Lasagna', bottomTitle: 'Knead Achieve into dough', image: 'e4.jpg' },
-    { topTitle: 'Genovese', bottomTitle: 'Mix into basil sauce', image: 'e5.jpg' },
-    { topTitle: 'Peperoncino', bottomTitle: 'Mix into oil- based sauce', image: 'e6.jpg' },
-    { topTitle: 'Margherita', bottomTitle: 'Use as a topping', image: 'e7.jpg' },
-    { topTitle: 'Risotto', bottomTitle: 'Mix as a finishing touch', image: 'e8.jpg' },
+    { topTitle: { JP: 'カプレーゼ', EN: 'Caprese' }, bottomTitle: { JP: 'トッピングとして使用', EN: 'Use as a topping' }, image: 'e1.jpg' },
+    { topTitle: { JP: 'サラダ', EN: 'Salad' }, bottomTitle: { JP: 'サラダに振りかける', EN: 'Sprinkle on salad' }, image: 'e2.jpg' },
+    { topTitle: { JP: 'ブルスケッタ', EN: 'Bruschetta' }, bottomTitle: { JP: 'ペーストに混ぜる', EN: 'Mix into paste' }, image: 'e3.jpg' },
+    { topTitle: { JP: 'ラザニア', EN: 'Lasagna' }, bottomTitle: { JP: '生地に練り込む', EN: 'Knead Achieve into dough' }, image: 'e4.jpg' },
+    { topTitle: { JP: 'ジェノベーゼ', EN: 'Genovese' }, bottomTitle: { JP: 'バジルソースに混ぜる', EN: 'Mix into basil sauce' }, image: 'e5.jpg' },
+    { topTitle: { JP: 'ペペロンチーノ', EN: 'Peperoncino' }, bottomTitle: { JP: 'オイルベースのソースに混ぜる', EN: 'Mix into oil- based sauce' }, image: 'e6.jpg' },
+    { topTitle: { JP: 'マルゲリータ', EN: 'Margherita' }, bottomTitle: { JP: 'トッピングとして使用', EN: 'Use as a topping' }, image: 'e7.jpg' },
+    { topTitle: { JP: 'リゾット', EN: 'Risotto' }, bottomTitle: { JP: '仕上げに混ぜる', EN: 'Mix as a finishing touch' }, image: 'e8.jpg' },
   ]
 
   return (
@@ -42,12 +42,12 @@ export default function MazavegeFamily() {
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
                   <div className="items-baseline gap-2 mb-3">
-                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle}</p>
-                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle}</p>
+                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle[language]}</p>
+                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle[language]}</p>
                   </div>
                   <img
                     src={`/${drink.image}`}
-                    alt={`${drink.topTitle} - ${drink.bottomTitle}`}
+                    alt={`${drink.topTitle[language]} - ${drink.bottomTitle[language]}`}
                     className="w-full h-auto shadow-lg"
                   />
                 </div>

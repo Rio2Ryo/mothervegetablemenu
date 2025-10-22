@@ -7,14 +7,14 @@ export default function MazavegeFamily() {
   const { t, language } = useLanguage()
 
   const drinks = [
-    { topTitle: 'Miso Soup', bottomTitle: 'Use as a topping', image: 'j1.jpg' },
-    { topTitle: 'Grilled Pacific Saury', bottomTitle: 'Mix with grated daikon radish', image: 'j2.jpg' },
-    { topTitle: 'Tororo Rice', bottomTitle: 'Mix with tororo', image: 'j3.jpg' },
-    { topTitle: 'Zaru Soba', bottomTitle: 'Knead into soba dough', image: 'j4.jpg' },
-    { topTitle: 'Tempura', bottomTitle: 'Mix with salt', image: 'j5.jpg' },
-    { topTitle: 'Sushi', bottomTitle: 'Mix with soy sauce', image: 'j6.jpg' },
-    { topTitle: 'Shabu-shabu', bottomTitle: 'Mix with sauce', image: 'j7.jpg' },
-    { topTitle: 'Teppanyaki', bottomTitle: 'Mix with sauce', image: 'j8.jpg' },
+    { topTitle: { JP: '味噌汁', EN: 'Miso Soup' }, bottomTitle: { JP: 'トッピングとして使用', EN: 'Use as a topping' }, image: 'j1.jpg' },
+    { topTitle: { JP: '秋刀魚の塩焼き', EN: 'Grilled Pacific Saury' }, bottomTitle: { JP: '大根おろしと混ぜる', EN: 'Mix with grated daikon radish' }, image: 'j2.jpg' },
+    { topTitle: { JP: 'とろろご飯', EN: 'Tororo Rice' }, bottomTitle: { JP: 'とろろと混ぜる', EN: 'Mix with tororo' }, image: 'j3.jpg' },
+    { topTitle: { JP: 'ざるそば', EN: 'Zaru Soba' }, bottomTitle: { JP: 'そば生地に練り込む', EN: 'Knead into soba dough' }, image: 'j4.jpg' },
+    { topTitle: { JP: '天ぷら', EN: 'Tempura' }, bottomTitle: { JP: '塩と混ぜる', EN: 'Mix with salt' }, image: 'j5.jpg' },
+    { topTitle: { JP: '寿司', EN: 'Sushi' }, bottomTitle: { JP: '醤油と混ぜる', EN: 'Mix with soy sauce' }, image: 'j6.jpg' },
+    { topTitle: { JP: 'しゃぶしゃぶ', EN: 'Shabu-shabu' }, bottomTitle: { JP: 'タレと混ぜる', EN: 'Mix with sauce' }, image: 'j7.jpg' },
+    { topTitle: { JP: '鉄板焼き', EN: 'Teppanyaki' }, bottomTitle: { JP: 'ソースと混ぜる', EN: 'Mix with sauce' }, image: 'j8.jpg' },
   ]
 
   return (
@@ -42,12 +42,12 @@ export default function MazavegeFamily() {
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
                   <div className="items-baseline gap-2 mb-3">
-                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle}</p>
-                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle}</p>
+                    <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle[language]}</p>
+                    <p className="text-green-400 text-left text-xs md:text-sm font-semibold">{drink.bottomTitle[language]}</p>
                   </div>
                   <img
                     src={`/${drink.image}`}
-                    alt={`${drink.topTitle} - ${drink.bottomTitle}`}
+                    alt={`${drink.topTitle[language]} - ${drink.bottomTitle[language]}`}
                     className="w-full h-auto shadow-lg"
                   />
                 </div>
