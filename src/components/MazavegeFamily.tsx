@@ -41,7 +41,9 @@ export default function MazavegeFamily() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-9 mt-12">
               {drinks.map((drink, index) => (
                 <div key={index} className="flex flex-col">
-                  <p className="text-white text-left text-base md:text-lg font-semibold">{drink.topTitle}</p>
+                  <p className="text-white text-left text-base md:text-lg font-semibold mb-3">
+                    {language === 'JP' ? drink.topTitle : drink.bottomTitle}
+                  </p>
                   <img
                     src={`/${drink.image}`}
                     alt={`${drink.topTitle} - ${drink.bottomTitle}`}
