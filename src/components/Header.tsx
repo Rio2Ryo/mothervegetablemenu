@@ -30,7 +30,7 @@ export default function Header() {
               {t({ JP: 'Menu', EN: 'Menu' })}
             </button>
             <button
-              onClick={() => document.getElementById('s2')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('s9')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
               {t({ JP: 'How to use', EN: 'How to use' })}

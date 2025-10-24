@@ -26,7 +26,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/i1.jpg"
+                    src="/c1.jpg"
                     alt="Athlete's foot Cream treatment"
                     className="w-full h-auto"
                   />
@@ -67,7 +67,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/i2.jpg"
+                    src="/c2.jpg"
                     alt="Antiseptic treatment"
                     className="w-full h-auto"
                   />
@@ -108,7 +108,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/i3.jpg"
+                    src="/c3.jpg"
                     alt="Insect bite Cream treatment"
                     className="w-full h-auto"
                   />
@@ -138,7 +138,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/i4.jpg"
+                    src="/c4.jpg"
                     alt="Lip balm treatment"
                     className="w-full h-auto"
                   />

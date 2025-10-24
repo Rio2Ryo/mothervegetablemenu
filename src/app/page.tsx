@@ -22,6 +22,13 @@ import MazavegeFamily14 from '@/components/MazavegeFamily14'
 import MazavegeFamily15 from '@/components/MazavegeFamily15'
 import MazavegeFamily16 from '@/components/MazavegeFamily16'
 import MazavegeFamily17 from '@/components/MazavegeFamily17'
+import MazavegeFamily18 from '@/components/MazavegeFamily18'
+import MazavegeFamily19 from '@/components/MazavegeFamily19'
+import MazavegeFamily20 from '@/components/MazavegeFamily20'
+import MazavegeFamily21 from '@/components/MazavegeFamily21'
+import MazavegeFamily22 from '@/components/MazavegeFamily22'
+import MazavegeFamily23 from '@/components/MazavegeFamily23'
+import MazavegeFamily24 from '@/components/MazavegeFamily24'
 import ProjectOverview from '@/components/ProjectOverview'
 import Footer from '@/components/Footer'
 import LoadingScreen from '@/components/LoadingScreen'
@@ -61,6 +68,13 @@ export default function Home() {
         <MazavegeFamily15 />
         <MazavegeFamily16 />
         <MazavegeFamily17 />
+        <MazavegeFamily18 />
+        <MazavegeFamily19 />
+        <MazavegeFamily20 />
+        <MazavegeFamily21 />
+        <MazavegeFamily22 />
+        <MazavegeFamily23 />
+        <MazavegeFamily24 />
       </main>
     </>
   )
