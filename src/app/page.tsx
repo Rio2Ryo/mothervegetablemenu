@@ -13,6 +13,15 @@ import MazavegeFamily5 from '@/components/MazavegeFamily5'
 import MazavegeFamily6 from '@/components/MazavegeFamily6'
 import MazavegeFamily7 from '@/components/MazavegeFamily7'
 import MazavegeFamily8 from '@/components/MazavegeFamily8'
+import MazavegeFamily9 from '@/components/MazavegeFamily9'
+import MazavegeFamily10 from '@/components/MazavegeFamily10'
+import MazavegeFamily11 from '@/components/MazavegeFamily11'
+import MazavegeFamily12 from '@/components/MazavegeFamily12'
+import MazavegeFamily13 from '@/components/MazavegeFamily13'
+import MazavegeFamily14 from '@/components/MazavegeFamily14'
+import MazavegeFamily15 from '@/components/MazavegeFamily15'
+import MazavegeFamily16 from '@/components/MazavegeFamily16'
+import MazavegeFamily17 from '@/components/MazavegeFamily17'
 import ProjectOverview from '@/components/ProjectOverview'
 import Footer from '@/components/Footer'
 import LoadingScreen from '@/components/LoadingScreen'
@@ -43,6 +52,15 @@ export default function Home() {
         <MazavegeFamily6 />
         <MazavegeFamily7 />
         <MazavegeFamily8 />
+        <MazavegeFamily9 />
+        <MazavegeFamily10 />
+        <MazavegeFamily11 />
+        <MazavegeFamily12 />
+        <MazavegeFamily13 />
+        <MazavegeFamily14 />
+        <MazavegeFamily15 />
+        <MazavegeFamily16 />
+        <MazavegeFamily17 />
       </main>
     </>
   )

@@ -17,7 +17,7 @@ export default function Header() {
               alt="MOTHER VEGETABLE"
               width={200}
               height={200}
-              className="hidden sm:block h-auto  sm:w-[60px] md:w-[100px] "
+              className="w-[60px] h-auto  sm:w-[80px] md:w-[120px] "
             />
           </div>
 
@@ -27,49 +27,13 @@ export default function Header() {
               onClick={() => document.getElementById('s1')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
-              {t({ JP: 'Drink', EN: 'Drink' })}
+              {t({ JP: 'Menu', EN: 'Menu' })}
             </button>
             <button
               onClick={() => document.getElementById('s2')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
             >
-              {t({ JP: 'Izakaya', EN: 'Izakaya' })}
-            </button>
-              <button
-              onClick={() => document.getElementById('s3')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
-            >
-              {t({ JP: 'Japanese', EN: 'Japanese' })}
-            </button>
-             <button
-              onClick={() => document.getElementById('s4')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
-            >
-              {t({ JP: 'Italian', EN: 'Italian' })}
-            </button>
-            <button
-              onClick={() => document.getElementById('s5')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
-            >
-              {t({ JP: 'French', EN: 'French' })}
-            </button>
- <button
-              onClick={() => document.getElementById('s6')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
-            >
-              {t({ JP: 'Chinese', EN: 'Chinese' })}
-            </button>
-             <button
-              onClick={() => document.getElementById('s7')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
-            >
-              {t({ JP: 'Korean', EN: 'Korean' })}
-            </button>
-             <button
-              onClick={() => document.getElementById('s8')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 text-[8px] sm:text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
-            >
-              {t({ JP: 'Curry', EN: 'Curry' })}
+              {t({ JP: 'How to use', EN: 'How to use' })}
             </button>
           <button
               onClick={() => setLanguage(language === 'EN' ? 'JP' : 'EN')}
