@@ -55,7 +55,7 @@ export default function MazavegeFamily() {
                     </div>
                   </div>
                   <div className="text-white space-y-2 text-xs md:text-sm mt-4">
-                    <p>{t({ JP: "※お醤油等、調味料にAchieveを混ぜたものをお使用してもよろしいです。", EN: "*It is recommended to mix Achieve with soy sauce or other seasonings." })}</p>
+                    <p>{t({ JP: "※お醤油等、調味料にAchieveを混ぜたものを用意しておくのがおすすめです。", EN: "*It is recommended to mix Achieve with soy sauce or other seasonings." })}</p>
                     <p>{t({ JP: "（Achieveが沈殿するため、使用前に混ぜてください）", EN: "(Shake or stir before use, as Achieve can settle at the bottom.)" })}</p>
                   </div>
                 </div>
