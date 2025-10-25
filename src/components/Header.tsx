@@ -22,7 +22,7 @@ export default function Header() {
           </div>
 
           {/* Navigation Menu */}
-          <nav className="flex items-center justify-between w-full max-w-[120px] sm:max-w-[470px] ml-0 sm:ml-4 md:space-x-2 md:justify-start md:w-auto md:max-w-none">
+          <nav className="flex items-center justify-between w-full max-w-[130px] sm:max-w-[470px] ml-0 sm:ml-4 md:space-x-2 md:justify-start md:w-auto md:max-w-none">
            
             <button
               onClick={() => document.getElementById('s9')?.scrollIntoView({ behavior: 'smooth' })}
