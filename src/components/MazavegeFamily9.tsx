@@ -18,7 +18,7 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                {t({ JP: "水虫クリーム", EN: "Athlete's foot Cream" })}
+                {t({ JP: "マザベジピュアウォーター", EN: "Mazavege Pure Water" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -27,7 +27,7 @@ export default function MazavegeFamily() {
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
                     src="/d1.jpg"
-                    alt="Athlete's foot Cream treatment"
+                    alt="Mazavege Pure Water"
                     className="w-full h-auto"
                   />
                 </div>
@@ -35,23 +35,28 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを水虫クリームに混ぜ込む", EN: "MAZEKOMU Confidence into an athlete's foot cream" })}
+                    {t({ JP: "ミネラルウォーターにAchieveを混ぜる", EN: "Mix Achieve into mineral water." })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 直接使用のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
-                      <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
-                      <p>{t({ JP: "①水虫クリーム - 適量", EN: "①Athlete's foot Cream - as needed" })}</p>
-                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
+                      <p className="font-semibold">{t({ JP: "【薄めに作りたい場合の目安量】", EN: "【Suggested amount for a light drink】" })}</p>
+                      <p>{t({ JP: "①ミネラルウォーター　1杯", EN: "① 1 glass of mineral water" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/2本", EN: "1/2 stick" })}</span></p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
-                      <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount when mixing in a bottle】" })}</p>
-                      <p>{t({ JP: "①水虫クリーム - 100ml", EN: "①Athlete's foot Cream - 100ml" })}</p>
-                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
+                      <p className="font-semibold">{t({ JP: "【濃いめに作りたい場合の目安量】", EN: "【Suggested amount for a strong drink】" })}</p>
+                      <p>{t({ JP: "①ミネラルウォーター　1杯", EN: "① 1 glass of mineral water" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
                     </div>
+                  </div>
+                  <div className="text-white space-y-2 text-xs md:text-sm mt-4">
+                    <p>{t({ JP: "※ショットグラスのような60mlほどの小さいサイズのグラスがおすすめです。", EN: "*A small glass, about 60ml like a shot glass, is recommended." })}</p>
+                    <p>{t({ JP: "※始めに10mlほどの水でAchieveを溶き、その後、1人分のお水を入れた別のグラスに注いで混ぜてください。", EN: "*First dissolve Achieve in about 10ml of water, then pour it into the serving glass containing one serving of water and mix well." })}</p>
+                    <p>{t({ JP: "（別のグラスにて少量のお水で一旦溶いてから、お客様への提供用グラスに混ぜるのがおすすめです）", EN: "(For best results, pre-dissolve it in a small amount of water in the serving glass before presenting to the customer.)" })}</p>
                   </div>
                 </div>
               </div>
@@ -59,7 +64,7 @@ export default function MazavegeFamily() {
             <div className="u2 mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                {t({ JP: "消毒薬", EN: "Antiseptic" })}
+                {t({ JP: "マザベジビール", EN: "Mazavege Beer" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -68,7 +73,7 @@ export default function MazavegeFamily() {
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
                     src="/d2.jpg"
-                    alt="Antiseptic treatment"
+                    alt="Mazavege Beer"
                     className="w-full h-auto"
                   />
                 </div>
@@ -76,23 +81,29 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを消毒薬に混ぜ込む", EN: "MAZEKOMU Confidence into an antiseptic" })}
+                    {t({ JP: "ビールにAchieveを混ぜる", EN: "Mix Achieve into beer" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
                     {/* 直接使用のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
-                      <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
-                      <p>{t({ JP: "①消毒薬 - 適量", EN: "①Antiseptic - as needed" })}</p>
-                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
+                      <p className="font-semibold">{t({ JP: "【薄めに作りたい場合の目安量】", EN: "【Suggested amount for a light drink】" })}</p>
+                      <p>{t({ JP: "①ビール　1杯", EN: "① 1 glass of beer" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/5本", EN: "1/5 stick" })}</span></p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
-                      <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
-                      <p>{t({ JP: "①消毒薬 - 100ml", EN: "①Antiseptic - 100ml" })}</p>
-                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
+                      <p className="font-semibold">{t({ JP: "【濃いめに作りたい場合の目安量】", EN: "【Suggested amount for a strong drink】" })}</p>
+                      <p>{t({ JP: "①ビール　1杯", EN: "① 1 glass of beer" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/2本", EN: "1/2 stick" })}</span></p>
                     </div>
+                  </div>
+                  <div className="text-white space-y-2 text-xs md:text-sm mt-4">
+                    <p>{t({ JP: "※始めに10mlほどの少量のお水でAchieveを溶き、1人分のビールを注いだグラスに混ぜてください。", EN: "*First dissolve Achieve in about 10ml of water, then mix it into a glass filled with one serving of beer." })}</p>
+                    <p>{t({ JP: "（ビールが薄くならないよう、お水の入れすぎにご注意ください）", EN: "(To avoid diluting the beer, be careful not to add too much water.)" })}</p>
+                    <p>{t({ JP: "※他の飲み物に比べ、Achieveの分量が多すぎると、泡が溢れ出してしまう可能性があるめご注意ください。", EN: "*Please be aware that, compared with other drinks, using too much Achieve may cause excessive foaming and overflow" })}</p>
+                    <p>{t({ JP: "※注ぐ際に泡が出ることがあるため、お客様に混ぜる場合は泡が溢れた分の量を見越して、ビールの量を少なめにしてお出しください。", EN: "*Since foaming may occur when pouring, if guests will mix it themselves, please serve with slightly less beer" })}</p>
                   </div>
                 </div>
               </div>
@@ -100,7 +111,7 @@ export default function MazavegeFamily() {
             <div className="u3 mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                {t({ JP: "虫刺されクリーム", EN: "Insect bite Cream" })}
+                {t({ JP: "マザベジサワー", EN: "Mazavege Sour" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -109,7 +120,7 @@ export default function MazavegeFamily() {
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
                     src="/d3.jpg"
-                    alt="Insect bite Cream treatment"
+                    alt="Mazavege Sour"
                     className="w-full h-auto"
                   />
                 </div>
@@ -117,12 +128,28 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを虫刺されクリームに混ぜ込む", EN: "MAZEKOMU Confidence into an insect bite cream" })}
+                    {t({ JP: "サワーにAchieveを混ぜる", EN: "Mix Achieve into sour" })}
                   </h3>
-                  <div className="text-white space-y-2 text-xs md:text-base">
-                    <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
-                    <p>{t({ JP: "①虫刺されクリーム - 適量", EN: "①Insect bite Cream - as needed" })}</p>
-                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
+                  {/* 横並びの2つのセクション */}
+                  <div className="flex flex-col md:flex-row gap-6">
+                    {/* 直接使用のセクション */}
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
+                      <p className="font-semibold">{t({ JP: "【薄めに作りたい場合の目安量】", EN: "【Suggested amount for a light drink】" })}</p>
+                      <p>{t({ JP: "①サワー　1杯", EN: "① 1 glass of sour" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/5本", EN: "1/5 stick" })}</span></p>
+                    </div>
+
+                    {/* ボトルに混ぜる場合のセクション */}
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
+                      <p className="font-semibold">{t({ JP: "【濃いめに作りたい場合の目安量】", EN: "【Suggested amount for a strong drink】" })}</p>
+                      <p>{t({ JP: "①サワー　1杯", EN: "① 1 glass of sour" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/2本", EN: "1/2 stick" })}</span></p>
+                    </div>
+                  </div>
+                  <div className="text-white space-y-2 text-xs md:text-sm mt-4">
+                    <p>{t({ JP: "※始めに10mlほどの少量のお水でAchieveを溶き、1人分のサワーを注いだグラスに混ぜてください。", EN: "*First dissolve Achieve in about 10ml of water, then mix it into a glass filled with one serving of sour." })}</p>
+                    <p>{t({ JP: "（サワーが薄くならないよう、お水の入れすぎにご注意ください）", EN: "(To avoid diluting the sour, be careful not to add too much water.)" })}</p>
+                    <p>{t({ JP: "※Achieveの分量が多すぎると、泡が溢れ出してしまう可能性があるめご注意ください。", EN: "*Please be aware that using too much Achieve may cause excessive foaming and overflow." })}</p>
                   </div>
                 </div>
               </div>
@@ -130,7 +157,7 @@ export default function MazavegeFamily() {
             <div className="mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                {t({ JP: "リップクリーム", EN: "Lip balm" })}
+                {t({ JP: "マザベジ梅酒（ロック）", EN: "Mazavege Plum Wine — on the Rocks" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -139,7 +166,7 @@ export default function MazavegeFamily() {
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
                     src="/d4.jpg"
-                    alt="Lip balm treatment"
+                    alt="Mazavege Plum Wine"
                     className="w-full h-auto"
                   />
                 </div>
@@ -147,13 +174,29 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをリップクリームに混ぜ込む", EN: "MAZEKOMU Confidence into lip balm" })}
+                    {t({ JP: "梅酒にAchieveを混ぜる", EN: "Mix Achieve into plum wine" })}
                   </h3>
-                  <div className="text-white space-y-2 text-xs md:text-base">
-                    <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
-                    <p>{t({ JP: "①リップクリーム - 適量", EN: "①Lip balm - as needed" })}</p>
-                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
-                    <p className="text-xs md:text-sm mt-4">{t({ JP: "*Confidenceをリップクリームに軽く塗り、唇全体に広げます。または、先にConfidenceを直接唇に塗布してから、その上にリップクリームを塗ることもできます。", EN: "*Lightly apply Confidence to the lip balm and smooth it over your lips. Alternatively, apply Confidence directly to the lips first, then follow with lip balm." })}</p>
+                  {/* 横並びの2つのセクション */}
+                  <div className="flex flex-col md:flex-row gap-6">
+                    {/* 直接使用のセクション */}
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
+                      <p className="font-semibold">{t({ JP: "【薄めに作りたい場合の目安量】", EN: "【Suggested amount for a light drink】" })}</p>
+                      <p>{t({ JP: "①梅酒　1杯", EN: "① 1 glass of plum wine" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/5本", EN: "1/5 stick" })}</span></p>
+                    </div>
+
+                    {/* ボトルに混ぜる場合のセクション */}
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
+                      <p className="font-semibold">{t({ JP: "【濃いめに作りたい場合の目安量】", EN: "【Suggested amount for a strong drink】" })}</p>
+                      <p>{t({ JP: "①梅酒　1杯", EN: "① 1 glass of plum wine" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
+                      <p className="text-xs md:text-sm">{t({ JP: "（ソーダ割の場合は1/2本程度に落としてください）", EN: "(for soda - 1/2 stick)" })}</p>
+                    </div>
+                  </div>
+                  <div className="text-white space-y-2 text-xs md:text-sm mt-4">
+                    <p>{t({ JP: "※始めに10mlほどの少量のお水または梅酒でAchieveを溶き、1人分の梅酒を注いだグラスに混ぜてください。", EN: "*First dissolve Achieve in about 10ml of water or Plum wine, then mix it into a glass filled with one serving of plum wine. (To avoid diluting the plum wine, be careful not to add too much water.)" })}</p>
+                    <p>{t({ JP: "（梅酒が薄くならないよう、お水の入れすぎにご注意ください）", EN: "" })}</p>
+                    <p>{t({ JP: "※ソーダ割の場合、Achieveの分量が多すぎると、泡が溢れ出してしまう可能性があるめご注意ください。", EN: "*Please be aware that when mixing with soda, adding too much Achieve may cause excessive foaming and overflow." })}</p>
                   </div>
                 </div>
               </div>
