@@ -52,7 +52,6 @@ export default function Home() {
         <Header />
         <Hero />
         <MazavegeFamily />
-        <MazavegeFamily9 />
         <MazavegeFamily10 />
         <MazavegeFamily11 />
         <MazavegeFamily12 />
