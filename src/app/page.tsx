@@ -51,7 +51,7 @@ export default function Home() {
       <main className="min-h-screen text-white relative">
         <Header />
         <Hero />
-        <MazavegeFamily />
+        <MazavegeFamily9 />
         <MazavegeFamily10 />
         <MazavegeFamily11 />
         <MazavegeFamily12 />
