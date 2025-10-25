@@ -23,12 +23,30 @@ export default function Header() {
 
           {/* Navigation Menu */}
           <nav className="flex items-center justify-between w-full max-w-[120px] sm:max-w-[470px] ml-0 sm:ml-4 md:space-x-2 md:justify-start md:w-auto md:max-w-none">
-           
+
             <button
               onClick={() => document.getElementById('s9')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 text-xs md:text-sm text-[#4ade80] hover:text-green-600 transition-all duration-300"
+              className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 hover:opacity-80 transition-all duration-300"
             >
-              {t({ JP: 'How to use', EN: 'How to use' })}
+              <Image
+                src="/htu.png"
+                alt="How to use"
+                width={80}
+                height={30}
+                className="w-auto h-[20px] sm:h-[25px] md:h-[30px]"
+              />
+            </button>
+            <button
+              onClick={() => document.getElementById('s9')?.scrollIntoView({ behavior: 'smooth' })}
+              className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 hover:opacity-80 transition-all duration-300"
+            >
+              <Image
+                src="/htu2.png"
+                alt="How to use"
+                width={80}
+                height={30}
+                className="w-auto h-[20px] sm:h-[25px] md:h-[30px]"
+              />
             </button>
           <button
               onClick={() => setLanguage(language === 'EN' ? 'JP' : 'EN')}
