@@ -29,7 +29,7 @@ export default function Header() {
               className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 hover:opacity-80 transition-all duration-300"
             >
               <Image
-                src="/htu.png"
+                src="/htu2.png"
                 alt="How to use"
                 width={80}
                 height={30}
@@ -41,7 +41,7 @@ export default function Header() {
               className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 hover:opacity-80 transition-all duration-300"
             >
               <Image
-                src="/htu2.png"
+                src="/htu.png"
                 alt="How to use"
                 width={80}
                 height={30}
