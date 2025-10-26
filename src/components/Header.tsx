@@ -25,7 +25,7 @@ export default function Header() {
           <nav className="flex items-center justify-between w-full max-w-[240px] sm:max-w-[470px] ml-0 sm:ml-4 md:space-x-2 md:justify-start md:w-auto md:max-w-none">
 
             <button
-              onClick={() => document.getElementById('s9')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('drink')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 hover:opacity-80 transition-all duration-300"
             >
               <Image
@@ -37,7 +37,7 @@ export default function Header() {
               />
             </button>
             <button
-              onClick={() => document.getElementById('s9')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('cook')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-1 sm:px-2 md:px-4 py-1.5 sm:py-2 hover:opacity-80 transition-all duration-300"
             >
               <Image
