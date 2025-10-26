@@ -18,7 +18,7 @@ export default function MazavegeFamily() {
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                {t({ JP: "水虫クリーム", EN: "Athlete's foot Cream" })}
+                {t({ JP: "バンバンジー", EN: "Bang Bang Chicken" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -27,7 +27,7 @@ export default function MazavegeFamily() {
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
                     src="/c5.jpg"
-                    alt="Athlete's foot Cream treatment"
+                    alt="Bang Bang Chicken"
                     className="w-full h-auto"
                   />
                 </div>
@@ -35,31 +35,32 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを水虫クリームに混ぜ込む", EN: "MAZEKOMU Confidence into an athlete's foot cream" })}
+                    {t({ JP: "ソースにAchieveを混ぜ込む", EN: "Mix Achieve into the sauce" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
-                    {/* 直接使用のセクション */}
+                    {/* 薄い色合いのセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
-                      <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
-                      <p>{t({ JP: "①水虫クリーム - 適量", EN: "①Athlete's foot Cream - as needed" })}</p>
-                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
+                      <p className="font-semibold">{t({ JP: "【うっすらと色をつけたい場合の目安量】", EN: "【Recommended amount for a light tint of color】" })}</p>
+                      <p>{t({ JP: "①1人分の材料", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                     </div>
 
-                    {/* ボトルに混ぜる場合のセクション */}
+                    {/* 濃い色合いのセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
-                      <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount when mixing in a bottle】" })}</p>
-                      <p>{t({ JP: "①水虫クリーム - 100ml", EN: "①Athlete's foot Cream - 100ml" })}</p>
-                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
+                      <p className="font-semibold">{t({ JP: "【しっかりと色をつけたい場合の目安量】", EN: "【Recommended amount for a stronger color】" })}</p>
+                      <p>{t({ JP: "①1人分の材料", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/2本", EN: "1/2 stick" })}</span></p>
                     </div>
                   </div>
+                  <p className="text-xs md:text-sm mt-4">{t({ JP: "※甘辛いタレ等、調味料にAchieveを混ぜたものを用意しておくのもおすすめです。（Achieveが沈殿するため、使用前に混ぜてください）", EN: "*It is recommended to prepare Achieve mixed with seasonings such as sweet and savory sauces. (Shake or stir before use, as Achieve can settle at the bottom.)" })}</p>
                 </div>
               </div>
             </div>
             <div className="u2 mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                {t({ JP: "消毒薬", EN: "Antiseptic" })}
+                {t({ JP: "チャーハン", EN: "Fried Rice" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -68,7 +69,7 @@ export default function MazavegeFamily() {
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
                     src="/c6.jpg"
-                    alt="Antiseptic treatment"
+                    alt="Fried Rice"
                     className="w-full h-auto"
                   />
                 </div>
@@ -76,22 +77,22 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを消毒薬に混ぜ込む", EN: "MAZEKOMU Confidence into an antiseptic" })}
+                    {t({ JP: "Achieveを混ぜ込んで炒める", EN: "Stir-fry with Achieve mixed in" })}
                   </h3>
                   {/* 横並びの2つのセクション */}
                   <div className="flex flex-col md:flex-row gap-6">
-                    {/* 直接使用のセクション */}
+                    {/* 薄い色合いのセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
-                      <p className="font-semibold">{t({ JP: "【直接塗布する場合の推奨量】", EN: "【Recommended amount for direct application】" })}</p>
-                      <p>{t({ JP: "①消毒薬 - 適量", EN: "①Antiseptic - as needed" })}</p>
-                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
+                      <p className="font-semibold">{t({ JP: "【うっすらと色をつけたい場合の目安量】", EN: "【Recommended amount for a light tint of color】" })}</p>
+                      <p>{t({ JP: "①1人分の材料", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                     </div>
 
-                    {/* ボトルに混ぜる場合のセクション */}
+                    {/* 濃い色合いのセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
-                      <p className="font-semibold">{t({ JP: "【ボトルに混ぜる場合の推奨量】", EN: "【Recommended amount for mixing in a bottle】" })}</p>
-                      <p>{t({ JP: "①消毒薬 - 100ml", EN: "①Antiseptic - 100ml" })}</p>
-                      <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1本", EN: "1 stick" })}</span></p>
+                      <p className="font-semibold">{t({ JP: "【しっかりと色をつけたい場合の目安量】", EN: "【Recommended amount for a stronger color】" })}</p>
+                      <p>{t({ JP: "①1人分の材料", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/2本", EN: "1/2 stick" })}</span></p>
                     </div>
                   </div>
                 </div>
@@ -100,7 +101,7 @@ export default function MazavegeFamily() {
             <div className="u3 mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                {t({ JP: "虫刺されクリーム", EN: "Insect bite Cream" })}
+                {t({ JP: "エビチリ", EN: "Shrimp in Chili Sauce" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -109,7 +110,7 @@ export default function MazavegeFamily() {
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
                     src="/c7.jpg"
-                    alt="Insect bite Cream treatment"
+                    alt="Shrimp in Chili Sauce"
                     className="w-full h-auto"
                   />
                 </div>
@@ -117,20 +118,32 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceを虫刺されクリームに混ぜ込む", EN: "MAZEKOMU Confidence into an insect bite cream" })}
+                    {t({ JP: "仕上げにAchieveをふりかける", EN: "Sprinkle Achieve as a finishing touch" })}
                   </h3>
-                  <div className="text-white space-y-2 text-xs md:text-base">
-                    <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
-                    <p>{t({ JP: "①虫刺されクリーム - 適量", EN: "①Insect bite Cream - as needed" })}</p>
-                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
+                  {/* 横並びの2つのセクション */}
+                  <div className="flex flex-col md:flex-row gap-6">
+                    {/* 薄い色合いのセクション */}
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
+                      <p className="font-semibold">{t({ JP: "【うっすらと色をつけたい場合の目安量】", EN: "【Recommended amount for a light tint of color】" })}</p>
+                      <p>{t({ JP: "①エビチリに必要な材料　1人前", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
+                    </div>
+
+                    {/* 濃い色合いのセクション */}
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
+                      <p className="font-semibold">{t({ JP: "【しっかりと色をつけたい場合の目安量】", EN: "【Recommended amount for a stronger color】" })}</p>
+                      <p>{t({ JP: "①エビチリに必要な材料　1人前", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/2本", EN: "1/2 stick" })}</span></p>
+                    </div>
                   </div>
+                  <p className="text-xs md:text-sm mt-4">{t({ JP: "※エビチリをお椀に盛ったあと、仕上げとしてAchieveをふりかけるのがおすすめです。", EN: "*It is recommended to sprinkle Achieve on top as a finishing touch after ladling the Shrimp in Chili Sauce into a bowl." })}</p>
                 </div>
               </div>
             </div>
             <div className="mt-10 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-xl px-6 md:px-12 py-8 border border-green-500/20 hover:border-green-400/40 transition-all duration-300">
               {/* タイトル */}
               <h2 className="text-white text-xl md:text-3xl font-bold mb-8 text-left">
-                {t({ JP: "リップクリーム", EN: "Lip balm" })}
+                {t({ JP: "青椒肉絲", EN: "Stir-Fried Green Pepper and Beef" })}
               </h2>
 
               {/* 画像とテキストのブロック */}
@@ -139,7 +152,7 @@ export default function MazavegeFamily() {
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
                     src="/c8.jpg"
-                    alt="Lip balm treatment"
+                    alt="Stir-Fried Green Pepper and Beef"
                     className="w-full h-auto"
                   />
                 </div>
@@ -147,14 +160,25 @@ export default function MazavegeFamily() {
                 {/* テキストブロック */}
                 <div className="w-full md:w-2/3 space-y-4">
                   <h3 className="text-green-400 text-sm md:text-2xl font-bold text-center">
-                    {t({ JP: "Confidenceをリップクリームに混ぜ込む", EN: "MAZEKOMU Confidence into lip balm" })}
+                    {t({ JP: "仕上げにAchieveを和える", EN: "Toss with Achieve as a finishing touch" })}
                   </h3>
-                  <div className="text-white space-y-2 text-xs md:text-base">
-                    <p className="font-semibold">{t({ JP: "【推奨量】", EN: "【Recommended amount】" })}</p>
-                    <p>{t({ JP: "①リップクリーム - 適量", EN: "①Lip balm - as needed" })}</p>
-                    <p>{t({ JP: "②", EN: "②" })}Confidence  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
-                    <p className="text-xs md:text-sm mt-4">{t({ JP: "*Confidenceをリップクリームに軽く塗り、唇全体に広げます。または、先にConfidenceを直接唇に塗布してから、その上にリップクリームを塗ることもできます。", EN: "*Lightly apply Confidence to the lip balm and smooth it over your lips. Alternatively, apply Confidence directly to the lips first, then follow with lip balm." })}</p>
+                  {/* 横並びの2つのセクション */}
+                  <div className="flex flex-col md:flex-row gap-6">
+                    {/* 薄い色合いのセクション */}
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
+                      <p className="font-semibold">{t({ JP: "【うっすらと色をつけたい場合の目安量】", EN: "【Recommended amount for a light tint of color】" })}</p>
+                      <p>{t({ JP: "①チンジャオロースに必要な材料", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
+                    </div>
+
+                    {/* 濃い色合いのセクション */}
+                    <div className="flex-1 text-white space-y-2 text-xs md:text-base">
+                      <p className="font-semibold">{t({ JP: "【しっかりと色をつけたい場合の目安量】", EN: "【Recommended amount for a stronger color】" })}</p>
+                      <p>{t({ JP: "①チンジャオロースに必要な材料", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/2本", EN: "1/2 stick" })}</span></p>
+                    </div>
                   </div>
+                  <p className="text-xs md:text-sm mt-4">{t({ JP: "※完成後に仕上げとしてAchieveを混ぜて使用するのがおすすめです。", EN: "*It is recommended to mix Achieve in as a finishing touch after the dish is completed." })}</p>
                 </div>
               </div>
             </div>
