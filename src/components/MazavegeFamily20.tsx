@@ -42,18 +42,18 @@ export default function MazavegeFamily() {
                     {/* 薄い色合いのセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【うっすらと色をつけたい場合の目安量】", EN: "【Recommended amount for a light tint of color】" })}</p>
-                      <p>{t({ JP: "①1人分の材料", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "①棒棒鶏に必要な材料", EN: "①Ingredients for 1 serving" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                     </div>
 
                     {/* 濃い色合いのセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【しっかりと色をつけたい場合の目安量】", EN: "【Recommended amount for a stronger color】" })}</p>
-                      <p>{t({ JP: "①1人分の材料", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "①棒棒鶏に必要な材料", EN: "①Ingredients for 1 serving" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/2本", EN: "1/2 stick" })}</span></p>
                     </div>
                   </div>
-                  <p className="text-xs md:text-sm mt-4">{t({ JP: "※甘辛いタレ等、調味料にAchieveを混ぜたものを用意しておくのもおすすめです。（Achieveが沈殿するため、使用前に混ぜてください）", EN: "*It is recommended to prepare Achieve mixed with seasonings such as sweet and savory sauces. (Shake or stir before use, as Achieve can settle at the bottom.)" })}</p>
+                  <p className="text-xs md:text-sm mt-4">{t({ JP: "※甘辛ダレ等、調味料にAchieveを混ぜたものを用意しておくのもおすすめです。（Achieveが沈殿するため、使用前に混ぜてください）", EN: "*It is recommended to prepare Achieve mixed with seasonings such as sweet and savory sauces. (Shake or stir before use, as Achieve can settle at the bottom.)" })}</p>
                 </div>
               </div>
             </div>
@@ -84,14 +84,14 @@ export default function MazavegeFamily() {
                     {/* 薄い色合いのセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【うっすらと色をつけたい場合の目安量】", EN: "【Recommended amount for a light tint of color】" })}</p>
-                      <p>{t({ JP: "①1人分の材料", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "①チャーハンに必要な材料", EN: "①Ingredients for 1 serving" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/10本", EN: "1/10 stick" })}</span></p>
                     </div>
 
                     {/* 濃い色合いのセクション */}
                     <div className="flex-1 text-white space-y-2 text-xs md:text-base">
                       <p className="font-semibold">{t({ JP: "【しっかりと色をつけたい場合の目安量】", EN: "【Recommended amount for a stronger color】" })}</p>
-                      <p>{t({ JP: "①1人分の材料", EN: "①Ingredients for 1 serving" })}</p>
+                      <p>{t({ JP: "①チャーハンに必要な材料", EN: "①Ingredients for 1 serving" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/2本", EN: "1/2 stick" })}</span></p>
                     </div>
                   </div>
