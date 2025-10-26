@@ -88,7 +88,12 @@ export default function MazavegeFamily() {
                       <p className="font-semibold">{t({ JP: "【調味料に混ぜたい場合の目安量】", EN: "【Recommended amount for mixing into seasonings】" })}</p>
                       <p>{t({ JP: "①唐揚げに必要な材料　1人前", EN: "①Ingredients for 1 serving" })}</p>
                       <p>{t({ JP: "②", EN: "②" })}Achieve  <span style={{ color: '#4ade80' }}>{t({ JP: "1/5本", EN: "1/5 stick" })}</span></p>
-                      <p className="text-xs md:text-sm">{t({ JP: "（例：塩:Achieve=5:1の割合で混ぜる場合）", EN: "(e.g., mix salt and Achieve at a 5:1 ratio)" })}</p>
+                      <p className="text-xs md:text-sm">
+                        {language === 'JP'
+                          ? <>（例：<span style={{ color: '#4ade80' }}>塩:Achieve=5:1</span>の割合で混ぜる場合）</>
+                          : <>(e.g., mix <span style={{ color: '#4ade80' }}>salt and Achieve at a 5:1</span> ratio)</>
+                        }
+                      </p>
                     </div>
 
                     {/* ボトルに混ぜる場合のセクション */}

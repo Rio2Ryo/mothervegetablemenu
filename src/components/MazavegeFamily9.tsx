@@ -100,10 +100,20 @@ export default function MazavegeFamily() {
                     </div>
                   </div>
                   <div className="text-white space-y-2 text-xs md:text-sm mt-4">
-                    <p>{t({ JP: "※始めに10mlほどの少量のお水でAchieveを溶き、1人分のビールを注いだグラスに混ぜてください。", EN: "*First dissolve Achieve in about 10ml of water, then mix it into a glass filled with one serving of beer." })}</p>
+                    <p>
+                      {language === 'JP'
+                        ? <>※始めに10mlほどの<span style={{ color: 'red' }}>少量のお水でAchieveを溶き</span>、1人分のビールを注いだグラスに混ぜてください。</>
+                        : <>*First dissolve Achieve in <span style={{ color: 'red' }}>about 10ml of water</span>, then mix it into a glass filled with one serving of beer.</>
+                      }
+                    </p>
                     <p>{t({ JP: "（ビールが薄くならないよう、お水の入れすぎにご注意ください）", EN: "(To avoid diluting the beer, be careful not to add too much water.)" })}</p>
                     <p>{t({ JP: "※他の飲み物に比べ、Achieveの分量が多すぎると、泡が溢れ出してしまう可能性があるめご注意ください。", EN: "*Please be aware that, compared with other drinks, using too much Achieve may cause excessive foaming and overflow" })}</p>
-                    <p>{t({ JP: "※注ぐ際に泡が出ることがあるため、お客様に混ぜる場合は泡が溢れた分の量を見越して、ビールの量を少なめにしてお出しください。", EN: "*Since foaming may occur when pouring, if guests will mix it themselves, please serve with slightly less beer" })}</p>
+                    <p>
+                      {language === 'JP'
+                        ? <>※注ぐ際に泡が出ることがあるため、<span style={{ color: 'red' }}>お客様に混ぜる場合は泡が溢れた分の量を見越して、ビールの量を少なめにしてお出しください。</span></>
+                        : <>*Since foaming may occur when pouring, <span style={{ color: 'red' }}>if guests will mix it themselves, please serve with slightly less beer</span></>
+                      }
+                    </p>
                   </div>
                 </div>
               </div>
