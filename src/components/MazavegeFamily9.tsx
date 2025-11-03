@@ -10,7 +10,7 @@ export default function MazavegeFamily() {
     <section id="mazavege-family" className="py-24 relative overflow-hidden">
       <div id="drink" className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"></div>
       <div className="relative z-10 justify-center mb-8">
-        <img src="/htu2.png" alt="HTU" className="w-full max-w-60 md:max-w-72 h-auto mx-auto" />
+        <img src="achieve-howto/htu2.png" alt="HTU" className="w-full max-w-60 md:max-w-72 h-auto mx-auto" />
         <div className="w-48 md:w-72 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-4 opacity-80"></div>
       </div>
       <div className="container mx-auto px-4 relative z-10">
@@ -27,7 +27,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/d1.jpg"
+                    src="achieve-howto/d1.jpg"
                     alt="Mazavege Pure Water"
                     className="w-full h-auto"
                   />
@@ -73,7 +73,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/d2.jpg"
+                    src="achieve-howto/d2.jpg"
                     alt="Mazavege Beer"
                     className="w-full h-auto"
                   />
@@ -130,7 +130,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/d3.jpg"
+                    src="achieve-howto/d3.jpg"
                     alt="Mazavege Sour"
                     className="w-full h-auto"
                   />
@@ -176,7 +176,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/d4.jpg"
+                    src="achieve-howto/d4.jpg"
                     alt="Mazavege Plum Wine"
                     className="w-full h-auto"
                   />
@@ -215,7 +215,7 @@ export default function MazavegeFamily() {
           </ScrollAnimationWrapper>
           {/* ロゴ画像 */}
           <div className="flex justify-center mt-12">
-            <img src="/mazavege_logo_midori.png" alt="Mazavege Logo" className="h-16 w-auto" />
+            <img src="achieve-howto/mazavege_logo_midori.png" alt="Mazavege Logo" className="h-16 w-auto" />
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ export default function MazavegeFamily() {
     <section id="mazavege-family" className="py-24 relative overflow-hidden">
       <div id="s9" className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black"></div>
       <div className="relative z-10 justify-center mb-8">
-        <img src="/htu.png" alt="HTU" className="w-full max-w-60 md:max-w-72 h-auto mx-auto" />
+        <img src="achieve-howto/htu.png" alt="HTU" className="w-full max-w-60 md:max-w-72 h-auto mx-auto" />
         <div className="w-48 md:w-72 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-4 opacity-80"></div>
       </div>
       <div className="container mx-auto px-4 relative z-10">
@@ -27,7 +27,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/j1.jpg"
+                    src="achieve-howto/j1.jpg"
                     alt="Miso Soup"
                     className="w-full h-auto"
                   />
@@ -71,7 +71,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/j2.jpg"
+                    src="achieve-howto/j2.jpg"
                     alt="Grilled Pacific Saury"
                     className="w-full h-auto"
                   />
@@ -114,7 +114,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/j3.jpg"
+                    src="achieve-howto/j3.jpg"
                     alt="Tororo (Grated Yam) Rice"
                     className="w-full h-auto"
                   />
@@ -155,7 +155,7 @@ export default function MazavegeFamily() {
                 {/* 画像 */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
                   <img
-                    src="/j4.jpg"
+                    src="achieve-howto/j4.jpg"
                     alt="Zaru Soba (Cold Buckwheat Noodles)"
                     className="w-full h-auto"
                   />
@@ -190,7 +190,7 @@ export default function MazavegeFamily() {
           </ScrollAnimationWrapper>
           {/* ロゴ画像 */}
           <div className="flex justify-center mt-12">
-            <img src="/mazavege_logo_midori.png" alt="Mazavege Logo" className="h-16 w-auto" />
+            <img src="achieve-howto/mazavege_logo_midori.png" alt="Mazavege Logo" className="h-16 w-auto" />
           </div>
         </div>
       </div>
