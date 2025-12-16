@@ -18,7 +18,8 @@
       "Bash(lsof:*)",
       "Bash(pkill:*)",
       "Bash(npx vercel:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(npm audit fix:*)"
     ],
     "deny": [],
     "ask": []
